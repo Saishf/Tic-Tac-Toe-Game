@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: #E7F0FF;
+    font-family: "Caveat",sans-serif;
+    margin-top: 20px;
+}
+body{
+    background-color: #779cab;
+      text-align: center;
+}
+.container{
+    height: 70vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0  1rem rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    font-size: 9vmin;
+    color: #7d1538;
+    background-color: #CFD6EA;
+}
+.resetbtn{
+    padding: 1.5vmin 4vmin;
+    font-family: "Alegreya Sans SC",sans-serif;
+    border: none;
+    border-radius: 5px;
+    background-color: #B0D0D3;
+    cursor: pointer;
+    box-shadow: 0 0  1rem rgba(0, 0, 0, 0.3);
+}
+.msg-container{
+    height: 10vmin;
+    
+}
+.hide{
+    display: none;
+}
+h2{
+    margin-top: 10px;
+    font-family: "Alegreya Sans SC",sans-serif;
+}
+.new-game{
+    margin-top: 10px;
+    padding: 1.5vmin 4vmin;
+    font-family: "Alegreya Sans SC",sans-serif;
+    border: none;
+    border-radius: 5px;
+    background-color: #B0D0D3;
+    cursor: pointer;
+    box-shadow: 0 0  1rem rgba(0, 0, 0, 0.3);
+}
